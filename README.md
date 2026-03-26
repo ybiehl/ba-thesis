@@ -33,12 +33,22 @@ The method was evaluated on several types of scans, including:
 
 This project uses an Apple **iPhone XS Max** and its **TrueDepth camera system** as a low-cost RGB-D sensing device for intraoral scanning.
 
-<p align="center">
-  <img src="images/iPhoneXsTrueDepthCamera.png" alt="iPhone XS Max TrueDepth camera system" width="24%" />
-  <img src="images/dot_projector_infraredcamera.PNG" alt="Infrared view of the TrueDepth dot pattern" width="29%" />
-  <img src="images/dot_projector_infraredcamera.PNG" alt="Intraoral mirror used for capture" width="29%" />
-
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="images/iPhoneXsTrueDepthCamera.png" alt="iPhone XS Max TrueDepth camera system" width="100%"><br>
+      <sub><b>(a)</b> iPhone XS Max with the TrueDepth camera system: infrared camera, infrared illuminator, RGB camera, and dot projector.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="images/dot_projector_infraredcamera.PNG" alt="Infrared view of the TrueDepth dot pattern" width="100%"><br>
+      <sub><b>(b)</b> Infrared night camera view showing the structured dot pattern projected onto a face by the TrueDepth system.</sub>
+    </td>
+    <td align="center" width="30%">
+      <img src="images/intraloralmirror.jpeg" alt="Intraoral mirror used for capture" width="80%"><br>
+      <sub><b>(c)</b> Intraoral mirror used to capture otherwise occluded palate regions.</sub>
+    </td>
+  </tr>
+</table>
 
 The TrueDepth system combines an **infrared camera**, **dot projector**, and **infrared illuminator** to project a structured light pattern onto the scene and recover depth from its deformation.
 
